@@ -21,6 +21,8 @@ const instructors = [
 const instructorLoop = () => {
   let domString = '';
   for (let i = 0; i <instructors.length; i++) {
+    domString += `<div>`
+    domString += 
     // console.log(`${instructors[i].firstName} ${instructors[i].lastName}`);
     domString += `<h2>${instructors[i].firstName} ${instructors[i].lastName}</h2>`;
   }

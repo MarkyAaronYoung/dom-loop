@@ -1,3 +1,16 @@
 body {
   background-color: red;
 };
+
+#dino-pen {
+  display: fle;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.dino {
+  border: 3px blueviolet;
+  width: 300px;
+  margin: 10px;
+  padding: 10px;
+}
